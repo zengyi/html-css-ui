@@ -25,7 +25,7 @@ body {
     inset 0 15px 15px rgba(0, 15, 15, 0.5);
 }
 
-.clock:before {
+.clock::before {
   content: "";
   position: absolute;
   width: 15px;
@@ -64,7 +64,7 @@ body {
   position: absolute;
   border-radius: 50%;
 }
-.hr:before {
+.hr::before {
   content: "";
   position: absolute;
   width: 8px;
@@ -73,7 +73,7 @@ body {
   z-index: 11;
   border-radius: 6px 6px 0 0;
 }
-.mn:before {
+.mn::before {
   content: "";
   position: absolute;
   width: 2px;
@@ -82,7 +82,7 @@ body {
   z-index: 12;
   border-radius: 6px 6px 0 0;
 }
-.sc:before {
+.sc::before {
   content: "";
   position: absolute;
   width: 4px;
